@@ -31,11 +31,11 @@ h2{
    gap:0px;
 }
 .item-a{
-    background-color: rgb(177, 75, 75);
+    background-color: red;
 padding: 10px;
 }
 .item-b{
-    background-color: rgb(52, 121, 52);
+    background-color: #90ee90;
 }
 table,th,td{border: 1px solid black;
 }
