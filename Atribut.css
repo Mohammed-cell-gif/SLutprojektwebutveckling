@@ -2,10 +2,21 @@
 body{
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: white;
+    background-color: rgb(90, 153, 201);
 }
-
-
+.menu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    background-color:grey;
+    padding:10px;
+    margin: 0;
+}
+.menu a{
+    color: aqua;
+    text-decoration: none;
+    
+}
 
 h1{
     text-align: center;
@@ -16,16 +27,30 @@ h2{
 }
 .container{
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-columns: 2fr 1fr;
+   gap:0px;
 }
 .item-a{
-    background-color: red;
-grid-column-start: 1;
-grid-column-end: 4;
-grid-row-start: 1;
-grid-row-end: 7;
+    background-color: rgb(177, 75, 75);
+padding: 10px;
 }
 .item-b{
-    background-color: green;
+    background-color: rgb(52, 121, 52);
+}
+table,th,td{border: 1px solid black;
+}
+td,th{
+    padding:10px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width: 300px;
+    gap:10px;
+    margin-top:20px;
+}
+img{
+    width: 100%;
+    max-width: 400px;
 }
